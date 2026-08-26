@@ -7,7 +7,8 @@ cask "bw-quickaccess" do
   desc "Menu-bar Quick Access for Bitwarden, in the style of 1Password Quick Access"
   homepage "https://github.com/kuchida1981/bitwarden-quickaccess"
 
-  depends_on arch: :arm64
+  depends_on arch:  :arm64
+  depends_on macos: :big_sur
 
   app "bw-quickaccess.app"
 
