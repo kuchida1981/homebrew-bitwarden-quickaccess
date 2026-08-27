@@ -1,6 +1,6 @@
 cask "bw-quickaccess" do
-  version "1.1.0"
-  sha256 "6125d3226c9b77342dc4b4aa8dfa6dcfccfd0e24504e2617f821a875890f24ae"
+  version "1.2.1"
+  sha256 "9a396837372a6433d692ea8134a637815dd2771c210fd22babae0da51427605d"
 
   url "https://github.com/kuchida1981/bitwarden-quickaccess/releases/download/v#{version}/bw-quickaccess_aarch64.app.tar.gz"
   name "bw-quickaccess"
