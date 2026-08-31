@@ -1,8 +1,8 @@
 cask "bw-quickaccess" do
-  version "1.4.0"
-  sha256 "6978efec85dcfdb8db4870b45cb265eaf1adf370d5ec02524b2f75a3c19c6c4c"
+  version "1.5.0"
+  sha256 "bf661a076c3bbcfcf4452cb4da34f573920ffe7ac474b0422014f54cc527b685"
 
-  url "https://github.com/kuchida1981/bitwarden-quickaccess/releases/download/v#{version}/Bitwarden.Quick.Access_aarch64.app.tar.gz"
+  url "https://github.com/kuchida1981/bitwarden-quickaccess/releases/download/v#{version}/Bitwarden.Quick.Access_#{version}_aarch64.app.tar.gz"
   name "bw-quickaccess"
   desc "Menu-bar Quick Access for Bitwarden, in the style of 1Password Quick Access"
   homepage "https://github.com/kuchida1981/bitwarden-quickaccess"
